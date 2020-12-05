@@ -1,0 +1,36 @@
+﻿body {
+    height: 100%;
+    width: 100%
+}
+
+#sidebar {
+    background-color: #295877;
+    width: 100%;
+    padding: 10px;
+}
+
+    #sidebar li {
+        color: #ffffff;
+        margin-bottom: 5px;
+    }
+#Sistema {
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #3C7CA5;
+    width: 100%;
+    padding: 25px;
+}
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#contenido {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}

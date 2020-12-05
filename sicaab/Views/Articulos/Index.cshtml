@@ -1,0 +1,73 @@
+﻿@model IEnumerable<sicaab.Models.Articulos>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="card">
+    <div class="card-header text-center"> <h2>Index</h2></div>
+    <div class="card-body">
+        <table class="table">
+            <tr>
+                <th>
+                    Nombre
+                </th>
+                <th>
+                    Cantidad
+                </th>
+                <th>
+                    Categoria
+                </th>
+                <th>
+                    Descripcion
+                </th>
+                <th>
+                    Stock
+                </th>
+                <th>
+                    Estado
+                </th>
+                <th>
+                    Acciones
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.cantidad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.categoria)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.stock)
+                    </td>
+                    <td>
+                        @if (item.condicion == true)
+                        {
+                            <p class="text-primary">Activo</p>
+                        }
+                        else
+                        {
+                            <p class="text-primary">Sin Existencias</p>
+                        }
+                    </td>
+                    <td>
+                        @Html.ActionLink("Editar", "Edit", new { id = item.id_articulo }, new { @class = "btn btn-success" })
+                        @*@Html.ActionLink("Detalles", "Details", new { id = item.id_articulo }, new { @class = "btn btn-info" })*@
+                        @Html.ActionLink("Eliminar", "Delete", new { id = item.id_articulo }, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>
