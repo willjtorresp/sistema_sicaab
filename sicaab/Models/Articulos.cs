@@ -13,12 +13,14 @@ namespace sicaab.Models
         [Required]
         public String Nombre { get; set; }
         [Required]
+        [Range(0, 99999)]
         public int cantidad { get; set; }
         [Required]
         public String categoria { get; set; }
         [Required]
         public String descripcion { get; set; }
         [Required]
+        [Range(0, 99999)]
         public int stock { get; set; }
         [Required]
         public Boolean condicion { get; set; }

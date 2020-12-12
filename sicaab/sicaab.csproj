@@ -142,6 +142,10 @@
     <Compile Include="Migrations\202012050104039_inicial.designer.cs">
       <DependentUpon>202012050104039_inicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202012121836381_validation.cs" />
+    <Compile Include="Migrations\202012121836381_validation.designer.cs">
+      <DependentUpon>202012121836381_validation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Articulos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -303,6 +307,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202012050104039_inicial.resx">
       <DependentUpon>202012050104039_inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012121836381_validation.resx">
+      <DependentUpon>202012121836381_validation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
