@@ -12,5 +12,6 @@ namespace sicaab.Data
         public AppDBContext() : base("DefaultConnection") { 
         }
         public DbSet<Articulos> Articulo { get; set; }
+        public DbSet<Clientes> Cliente { get; set; }
     }
 }

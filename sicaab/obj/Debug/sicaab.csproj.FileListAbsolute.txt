@@ -185,3 +185,8 @@ C:\Users\wtorr\source\repos\sicaab\sistema_sicaab\sicaab\obj\Debug\sicaab.csproj
 C:\Users\wtorr\source\repos\sicaab\sistema_sicaab\sicaab\obj\Debug\sicaab.dll
 C:\Users\wtorr\source\repos\sicaab\sistema_sicaab\sicaab\obj\Debug\sicaab.pdb
 C:\Users\wtorr\source\repos\sicaab\sistema_sicaab\sicaab\obj\Debug\sicaab.Migrations.validation.resources
+C:\Users\wtorr\source\repos\sicaab\sistema_sicaab\sicaab\obj\Debug\sicaab.Migrations.clientes.resources
+C:\Users\wtorr\source\repos\sicaab\sistema_sicaab\sicaab\obj\Debug\sicaab.Migrations.cl.resources
+C:\Users\wtorr\source\repos\sicaab\sistema_sicaab\sicaab\obj\Debug\sicaab.Migrations.cli.resources
+C:\Users\wtorr\source\repos\sicaab\sistema_sicaab\sicaab\obj\Debug\sicaab.Migrations.cli1.resources
+C:\Users\wtorr\source\repos\sicaab\sistema_sicaab\sicaab\obj\Debug\sicaab.Migrations.validation1.resources
